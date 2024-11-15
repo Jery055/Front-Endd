@@ -1,0 +1,91 @@
+/* Overall layout for the third-page */
+.third-page {
+  display: flex;
+  height: 100vh; /* Full height of the screen */
+  background-color: #e0f7fa;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar styling */
+.sidebar {
+  width: 250px;
+  background-color: #004d66;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* RSET Notes title in the sidebar */
+.sidebar h1 {
+  margin-bottom: 40px;
+  font-size: 1.8rem;
+}
+
+/* Sidebar buttons */
+.sidebar-btn {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #00796b;
+  color: white;
+  text-align: left;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-btn:hover {
+  background-color: #004d40;
+}
+
+/* Branch info in the sidebar */
+.branch-info {
+  margin-top: 30px;
+}
+
+.branch-info h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #041110;
+}
+
+/* Main content styling */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Align items to the top */
+  align-items: center;
+  padding: 20px;
+  background-color: #f1f8e9;
+}
+
+/* Home Page title styling */
+.home-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #004d66; /* Color matching the sidebar */
+}
+
+/* Buttons for different courses */
+.course-btn {
+  width: 350px;
+  padding: 20px;
+  margin: 15px;
+  background-color: #ffffff;
+  border: 2px solid #00796b;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  color: #000000; /* Change font color to black */
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-btn:hover {
+  background-color: #e0f2f1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}

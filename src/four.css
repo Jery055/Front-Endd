@@ -1,0 +1,107 @@
+
+.four-page {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #1b0202; /* Dark background */
+  padding: 20px;
+  color: #000; /* Change sidebar text color to black */
+}
+
+/* Sidebar Title Styling */
+.sidebar h1 {
+  color: #000; /* Change "RSET NOTES" text color to black */
+}
+
+/* Button Styles */
+.sidebar-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #ddd;
+  text-align: left;
+  border: none;
+  cursor: pointer;
+  color: #1b0202; /* Dark text to contrast with the light button */
+}
+
+.sidebar-btn:hover {
+  background-color: #ccc;
+}
+
+/* Sidebar Text Color */
+.branch-info h3 {
+  margin-top: 20px;
+  color: #ffffff; /* White text to contrast against the dark background */
+}
+
+/* Main Content Styling */
+.main-content {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  width: 60%;
+  padding: 12px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Subject List Styles */
+.subject-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Subject Buttons */
+.subject-item {
+  display: flex;
+  flex-direction: column; /* Stack the button and delete button vertically */
+  align-items: center; /* Center align the buttons */
+  margin: 10px;
+}
+
+.subject-btn {
+  width: 200px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #1b0202; /* Dark border to match sidebar */
+  cursor: pointer;
+  color: #1b0202; /* Dark text color */
+  margin-bottom: 5px; /* Space between the subject button and delete button */
+}
+
+.subject-btn:hover {
+  background-color: #cfc5c5;
+}
+
+/* Delete Button Styling */
+.subject-delete-btn {
+  padding: 10px;
+  background-color: #ff4c4c; /* Red background for delete button */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Full width to match subject button */
+}
+
+.subject-delete-btn:hover {
+  background-color: #ff1a1a; /* Darker red on hover */
+}
+
+/* Add Subject Section */
+.add-subject-section {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
